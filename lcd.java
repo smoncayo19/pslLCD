@@ -6,8 +6,6 @@
  *el numero, el tamano que debe tener el digito y las constantes simbolicas para los segmentos
  */
 
-package lcd;
-
 import java.util.ArrayList;
 import java.util.Iterator;
 import java.util.List;
@@ -60,7 +58,7 @@ public class lcd{
 		}
 	}
 
-	//Metodo que retorna una lista con el número de los segmentos que se deben "encender" para representar el digito
+	//Metodo que retorna una lista con el nÃºmero de los segmentos que se deben "encender" para representar el digito
 	//Note que cada segmeto lo represento de la forma:
 	// 1
 	//6 2
@@ -143,7 +141,7 @@ public class lcd{
 		return listaSegmentos;
 		}
 	
-	//Metodo que recibe la lista de segmentos y asigna el simbolo correspondiente (| ó -) a las casillas
+	//Metodo que recibe la lista de segmentos y asigna el simbolo correspondiente (| Ã³ -) a las casillas
 	//de la matriz segun tambien el atributo size
 	public void asignarSegmentos(List<Integer> listaSegmentos){
         Iterator<Integer> iterator = listaSegmentos.iterator();
