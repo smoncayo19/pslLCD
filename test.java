@@ -2,9 +2,8 @@
  *Codigo desarrollado por Ing. Sebastian Moncayo para prueba de codificacion de PSL S.A.
  *Clase test
  *Este es el tester para el visualizador de lcd 7 segmentos
- *Se reutilizaron algunos elementos del codigo LCDTester.java extraído de https://github.com/pslcorp/lcdrefactor
+ *Se reutilizaron algunos elementos del codigo LCDTester.java extraÃ­do de https://github.com/pslcorp/lcdrefactor
  */
-package lcd;
 
 import java.util.ArrayList;
 import java.util.List;
