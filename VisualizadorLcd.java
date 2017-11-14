@@ -5,7 +5,6 @@
  *digito y el espacio entre digito
  */
 
-package lcd;
 
 import java.util.ArrayList;
 import java.util.Iterator;
